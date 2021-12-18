@@ -104,17 +104,10 @@ svg {
 /* slide end */
 
 /* first  div start css */
-
-#topImgDiv {
-  width: 100%;
-  height: 500px;
-  border: 1px solid red;
-}
-
 /* second div start css */
 #parentDiv1 {
   width: 100%;
-  height: 660px;
+  height: 495px;
   /* border: 1px solid blue; */
   display: flex;
 }
@@ -123,46 +116,22 @@ svg {
   height: 100%;
   /* border: 1px solid teal; */
 }
-
 #bg1 {
-  height: 300px;
-  width: 350px;
-  display: flex;
-  align-items: flex-end;
   background-color: antiquewhite;
-  text-align: center;
 }
 #bg2 {
   background-color: #fdcebe;
-  height: 300px;
-  width: 350px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
 }
 #bg3 {
-  background-color: firebrick;
+  background-color: #e42134;
   color: white;
-  height: 300px;
-  width: 350px;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 100px;
-  text-align: center;
 }
 #bg4 {
   background-color: #d1decf;
-  height: 300px;
-  width: 350px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
 }
 #textDiv {
   color: white;
-  margin-top: 0px;
-  padding: 40px 30px;
-  border: solid black;
+  margin-top: 20px;
 }
 #child3title,
 #child3desc {
@@ -171,38 +140,37 @@ svg {
 #child3desc {
   line-height: 24px;
 }
-/* #bottomImg2 {
+#bottomImg2 {
   padding-right: 10px;
-} */
+}
 
 #parentDiv1 > div .textDiv {
+  /* border: 1px solid black; */
   margin-top: 15px;
 }
 .title {
   text-align: center;
   color: #204e3c;
-  font-size: 35px;
 }
 .desc {
-  padding: 10px 80px;
-  line-height: 40px;
+  padding: 10px 50px 10px 50px;
+  line-height: 24px;
   color: #204e3c;
   font-family: sans-serif;
-  font-size: 20px;
 }
-/* #parentDiv1 > div .imgDiv {
-  border: 1px solid tomato;
+#parentDiv1 > div .imgDiv {
+  /* border: 1px solid tomato; */
   width: 100%;
   height: 230px;
-} */
-/* #parentDiv1 > div .imgDiv > .bottomImg {
+}
+#parentDiv1 > div .imgDiv > .bottomImg {
   padding-left: 50px;
   width: 80%;
   height: 100%;
-} */
-.title > hr {
-  width: 60%;
-  margin-left: 50px;
+}
+.childDiv1 > .textDiv > .title > hr {
+  width: 85%;
+  margin-left: 35px;
 }
 #p2Child1,
 #p2Button {
@@ -228,35 +196,30 @@ svg {
 /* third div start css */
 
 #parentDiv2 {
-  /* border:1px solid green; */
   width: 100%;
-  height: 810px;
+  height: 700px;
   /* border: 1px solid green; */
   display: flex;
 }
 #parentDiv2 > div {
-  /* border:1px solid green; */
   width: 50%;
   height: 100%;
   /* border: 1px solid transparent; */
 }
 #imgAndTextDiv {
-  /* border:1px solid green; */
   display: flex;
   width: 100%;
   height: 180px;
   /* border: 1px solid red; */
 }
 #titleh3 {
-  /* border:1px solid green; */
   padding-top: 70px;
   padding-left: 40px;
   font-family: sans-serif;
   font-weight: 550;
-  font-size: 25px;
+  font-size: 20px;
 }
 #p2content {
-  /* border:1px solid green; */
   width: 80%;
   height: 60%;
   /* border: 1px solid blueviolet; */
@@ -265,73 +228,65 @@ svg {
   text-align: center;
 }
 #p2title {
-  /* border:1px solid green; */
   color: #204e3c;
   font-family: sans-serif;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 45px;
 }
 #p2Desc {
-  /* border:1px solid green; */
   padding: 15px 30px;
-  line-height: 35px;
+  line-height: 25px;
   font-family: sans-serif;
   font-weight: 530;
-  font-size: 22px;
+  font-size: 19px;
 }
 #p2Button {
-  /* border:1px solid green; */
   padding: 15px 60px;
   border: 1px solid black;
   color: black;
   cursor: pointer;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 20px;
 }
 #p2c2imgDiv {
-  /* border:1px solid green; */
   /* border: 1px solid black; */
   width: 30%;
 }
 #p2c2content {
-  /* border:1px solid green; */
   text-align: center;
-  width: 80%;
-  height: 500px;
+  width: 70%;
+  height: 450px;
   margin-left: 50px;
   padding-right: 20px;
   /* border: 1px solid hotpink; */
 }
 #p2c2contentDesc {
-  /* border:1px solid green; */
-  padding: 20px 20px;
+  padding: 5px 40px;
   font-family: sans-serif;
-  line-height: 65px;
+  line-height: 45px;
   font-weight: normal;
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   margin-top: -60px;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 #hashtagH2 {
-  /* border:1px solid green; */
   margin-top: 40px;
   margin-bottom: -20px;
   color: white;
   font-family: sans-serif;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 28px;
 }
 #p2c2contentButton {
-  /* border:1px solid green; */
   padding: 15px 90px;
   border: 1px solid white;
   color: white;
   cursor: pointer;
   margin-top: 80px;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 /* second part end.... */
