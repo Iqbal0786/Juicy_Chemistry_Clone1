@@ -1,124 +1,283 @@
-
-.register-card{
-  
-    max-width: 600px;
-    margin: auto;
-  
+/* header start */
+#entire {
+    background-color: floralwhite;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    border: 1px solid transparent;
+    font-family: sans-serif;
   }
-  
-  #header{
-    letter-spacing: 0;
-    font-family: 'Lora', serif;
-    font-size: 40px;
-    line-height: 55px;
-    text-align: center;
-    color: #204e3c;
-    margin-bottom: 20px;
-    
-  }
-  #headSub{
-    font-size: 15px;
-    color: #000;
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  #myForm{
-    width: 80%;
-  margin:auto;
-  
-  }
-  #register{
+  #header {
+    background-color: floralwhite;
     display: flex;
-    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid transparent;
   }
-  #loginForm{
-    display: flex;
-    flex-direction: column;
-  }
-  input{
-    margin: 10px auto;
-    padding: 15px;
-    font-size: 13px;
-    width: 400px;
-    height: 50px;
-  
-  }
-  
-  
-  
-  form button{
-  
-    padding: 15px;
-    width: 400px;
-    margin: auto;
-  margin-top: 20px;
-    
-    background-color: #0f2d26;
-    color: white;
+  .ShopAll {
+    border: 2px;
+    background-color: transparent;
+    padding: 30px 2px;
     cursor: pointer;
     font-size: 18px;
-    box-sizing: border-box;
+    border: 1px solid transparent;
+  }
+  .ShopAll > option {
+    background-color: transparent;
+    line-height: 30px;
+    font-size: 18px;
+    border: 1px solid transparent;
+  }
+  .headerBtn {
+    border: 0px;
+    background-color: transparent;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid transparent;
+  }
+  #header > #logoo {
+    width: 60%;
+    text-align: right;
+    border: 1px solid transparent;
   }
   
-  form button:hover{
-  /* margin: 5px; */
-  padding: 15px;
-  width: 400px;
-  background-color: black;
-  color: white;
-  font-size: 20px;
-    box-sizing: border-box;
-  cursor: pointer;
-  
+  #search {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border: 0px;
+    text-decoration: underline;
+    /* margin-left: 50px; */
+    padding: 0px;
+    font-size: 18px;
+    /* padding-bottom: 20px; */
   }
-  
-  
-  #socialIcons a{
-   color:#042016 ; 
+  svg {
+    /* padding: 20px; */
+    border: 1px solid transparent;
   }
-  #socialIcons{
-    width: 450px;
-    margin: auto;
-    padding: 10px;
+  #making {
+    margin-right: 100px;
+    text-align: right;
+    font-size: 18px;
+    border: 1px solid transparent;
+    width: 40%;
+  }
+  #logoo {
+    line-height: 1px;
+    border: solid;
+    border: 1px solid transparent;
+    padding-left: 30px;
+  }
+  #styleheader {
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
+    border: 1px solid transparent;
   }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  #socialIcons .fa-facebook {
-    background: #3B5998;
+  .register-card{
+    
+      max-width: 500px;
+      margin: auto;
+    
+    }
+    
+    #headerreg{
+      letter-spacing: 0;
+      font-family: 'Lora', serif;
+      font-size: 40px;
+      line-height: 55px;
+      text-align: center;
+      color: #204e3c;
+      margin-bottom: 20px;
+      
+    }
+    #headSub{
+      font-size: 15px;
+      color: #000;
+      text-align: center;
+      margin-bottom: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #myForm{
+      width: 80%;
+    margin:auto;
+    
+    }
+    #register{
+      display: flex;
+      flex-direction: column;
+    }
+    #loginForm{
+      display: flex;
+      flex-direction: column;
+    }
+    input{
+      margin: 10px auto;
+      padding: 15px;
+      font-size: 13px;
+      width: 400px;
+      height: 50px;
+    
+    }
+    /* header end */
+    
+    
+  /* register start */
+    form button{
+    
+      padding: 15px;
+      width: 400px;
+      margin: auto;
+    margin-top: 20px;
+      
+      background-color: #0f2d26;
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+      box-sizing: border-box;
+    }
+    
+    form button:hover{
+    /* margin: 5px; */
+    padding: 15px;
+    width: 400px;
+    background-color: black;
     color: white;
-  }
-  
-  #socialIcons .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  #socialIcons .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-  #socialIcons .fa-linkedin {
-    background: rgb(0, 119, 255);
-    color: white;
-  }
-  #socialIcons .fa-amazon {
-    background: orange;
-    color: white;
-  }
-  
-  #socialIcons .fa {
-    padding: 10px;
     font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 2px;
-    margin: 3px;
-  }
+      box-sizing: border-box;
+    cursor: pointer;
+    
+    }
+    
+    
+    #socialIcons a{
+     color:#042016 ; 
+    }
+    #socialIcons{
+      width: 450px;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      font-size: 15px;
+    }
+    
+    .fa:hover {
+      opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    #socialIcons .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    #socialIcons .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    #socialIcons .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+    #socialIcons .fa-linkedin {
+      background: rgb(0, 119, 255);
+      color: white;
+    }
+    #socialIcons .fa-amazon {
+      background: orange;
+      color: white;
+    }
+    
+    #socialIcons .fa {
+      padding: 10px;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 2px;
+      margin: 3px;
+    }
+    .footer {
+      background-color: #cd584f;
+      color: white;
+      display: flex;
+      width: 100%;
+      height: 500px;
+      font-family: sans-serif;
+      /* grid-template-columns: repeat(7,1fr);
+                  grid-template-areas: 
+                  "s a q st st g g"; */
+    }
+    /* register end */
+    /* footer start */
+    .footer > div {
+      margin-top: 40px;
+      display: block;
+    
+      border: solid transparent;
+      line-height: 40px;
+    }
+    .footerBtn {
+      border: 0px;
+      background-color: transparent;
+      font-size: 18px;
+    
+      color: white;
+      font-family: sans-serif;
+      line-height: 30px;
+    }
+    #footerBtn2 {
+      border: none;
+      padding: 20px 120px;
+      font-size: 20px;
+      font-weight: bold;
+    
+      margin-top: 30px;
+    }
+    #footerBtn2:hover {
+      color: white;
+      background-color: black;
+      cursor: pointer;
+    }
+    #stay > p {
+      font-size: 50px;
+      cursor: pointer;
+    }
+    #stay > .ininput {
+      background-color: transparent;
+      border: 1px solid white;
+      width: 350px;
+      height: 60px;
+      text-align: center;
+      font-size: 20px;
+    }
+    .ininput::placeholder {
+      color: white;
+    }
+    #stay {
+      text-align: center;
+      width: 30%;
+      /* padding: 1% 1%; */
+    }
+    #get {
+      width: 25%;
+      padding: 1%;
+    }
+    #quick {
+      width: 30%;
+      padding: 1% 1%;
+      margin-right: 2%;
+    }
+    #about {
+      width: 10%;
+      padding: 1% 1%;
+      margin-right: 2%;
+    }
+    #shop {
+      width: 10%;
+      /* padding-left: 1%; */
+      padding: 1% 1%;
+    }
+    /* footer end */
+    
