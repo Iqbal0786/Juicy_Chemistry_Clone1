@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="register.css">
+    <style>
+        .register-card{
+  
+  max-width: 600px;
+  margin: auto;
+
+}
+
+#header{
+  letter-spacing: 0;
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  color: #204e3c;
+  margin-bottom: 20px;
+  
+}
+#headSub{
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#myForm{
+  width: 80%;
+margin:auto;
+
+}
+#register{
+  display: flex;
+  flex-direction: column;
+}
+#loginForm{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 13px;
+  width: 400px;
+  height: 50px;
+
+}
+
+
+
+form button{
+
+  padding: 15px;
+  width: 400px;
+  margin: auto;
+margin-top: 20px;
+  
+  background-color: #0f2d26;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+form button:hover{
+/* margin: 5px; */
+padding: 15px;
+width: 400px;
+background-color: black;
+color: white;
+font-size: 20px;
+  box-sizing: border-box;
+cursor: pointer;
+
+}
+
+
+#socialIcons a{
+ color:#042016 ; 
+}
+#socialIcons{
+  width: 450px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+#socialIcons .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+#socialIcons .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#socialIcons .fa-google {
+  background: #dd4b39;
+  color: white;
+}
+#socialIcons .fa-linkedin {
+  background: rgb(0, 119, 255);
+  color: white;
+}
+#socialIcons .fa-amazon {
+  background: orange;
+  color: white;
+}
+
+#socialIcons .fa {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  margin: 3px;
+}
+    </style>
+    </head>
+    <script
+    src="https://kit.fontawesome.com/511a6cb386.js"
+    crossorigin="anonymous">
+</script>
+<body>
+    <div class="register-card">
+    <div style="margin-top:40%;" >
+    <h1 id="header">Register</h1>
+
+    <p id="headSub">It’s nice to meet you! We’re Juicy Chemistry. Care </br>Care to introduce yourself?</p>
+
+    <div id="MyForm">
+        <form onsubmit="signup(event)" id="register"  action="">
+            <input id="firstname" type="text" placeholder="First name">                                 
+            <input id="lastname" type="text" placeholder="Last name">                                  
+            <input id="mob" type="text" placeholder="+91 9876543210">                           
+            <input id="email" type="email" placeholder="Email">                                    
+            <input id="password" type="password" placeholder="Enter your password">                     
+            <button class="Btn" type="submit">CONTINUE</button>
+        </form>
+    </div>
+    
+</div>
+
+<div id="socialIcons">
+    <span>Already have an account?</span>
+    <a href="login.html"><u><b>Login</b></u></a></br>  
+    <a href="https://www.facebook.com/JuicyChemistry" class="fa fa-facebook"></a>
+    <a href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fsocial-login.oxiapps.com%2Fauth%2Fgoogle&client_id=898543883992-ut65aoh5alu6s7jlcs5hk05htbagjs9n.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=online&approval_prompt=auto&flowName=GeneralOAuthFlow" class="fa fa-google"></a>
+    <a href="https://twitter.com/chemistry_juicy" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/company/juicy-chemistry/" class="fa fa-linkedin"></a>
+    <a href="https://www.amazon.in/stores/page/88F6EE8F-1D47-4A6F-9FF1-E0B51808E0B7/?_encoding=UTF8&store_ref=SB_A0287341CDDT0WNI6KW4&pd_rd_plhdr=t&aaxitk=58cbe4f5ed343a08d864ee6e099f985e&hsa_cr_id=9721599550102&lp_asins=B01N2LYRWX%2CB01N0IYDKE%2CB07G87P3LS&lp_query=juicy%20chemistry&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_mcd_logo&pd_rd_w=7X3Xh&pf_rd_p=47ac07ef-304a-41df-a673-0b368707e6c6&pd_rd_wg=RcjFf&pf_rd_r=YKPX207CCGZR95ANG6CC&pd_rd_r=675ab92d-547e-4994-bef6-1eb8406b4780" class="fa fa-amazon"></a>       
+</div>
+</div>
+</title>
+<script>
+  function signup(e) {
+    e.preventDefault()
+
+    var register = document.getElementById("register");
+
+    var firstname = register.firstname.value;
+    var lastname = register.lastname.value;
+    var mob   = register.mob.value;
+    var email = register.email.value;
+    var password = register.password.value;
+
+
+register.firstname.value=null;
+ 
+register.lastname.value=null;
+ 
+register.mob.value=null;
+    
+register.email.value=null;
+  
+register.password.value=null;
+
+
+    // should go to the local Storage
+    if(localStorage.getItem("users") === null) {
+        localStorage.setItem("users", JSON.stringify([]));
+    }
+
+    // get all the user data 
+    var users = JSON.parse(localStorage.getItem("users"))        // existing users
+
+    if (already_user(firstname, email, users)) {
+        alert("User Already Exists");
+    } else {
+        var user = {
+            firstname,
+            lastname,
+            mob,
+            email,
+            password,
+        };
+
+        // get array from localStorage
+
+
+        //push new user
+        users.push(user)
+
+        localStorage.setItem("users", JSON.stringify(users));
+        window.location.href = ""
+    }
+}
+//check if user already exits or not
+       function already_user(name,email,users){
+          for(let i = 0;i<users.length;i++) {
+               if(users[i].name === name && users[i].email === email){
+                 return true;
+               }
+           };
+           return false;
+
+       }
+</script>
+</body>
+</html>
