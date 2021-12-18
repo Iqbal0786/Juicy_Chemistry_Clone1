@@ -125,27 +125,24 @@ svg {
 }
 
 #bg1 {
-  height: 300px;
+  /* height: 300px;
   width: 350px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end; */
   background-color: antiquewhite;
   text-align: center;
 }
 #bg2 {
   background-color: #fdcebe;
-  height: 300px;
+  /* height: 300px;
   width: 350px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end; */
   text-align: center;
 }
 #bg3 {
   background-color: firebrick;
   color: white;
-  height: 300px;
-  width: 350px;
-  display: flex;
   align-items: flex-end;
   margin-bottom: 100px;
   text-align: center;
