@@ -1,6 +1,6 @@
 
- var products=JSON.parse(localStorage.getItem("Products"))||[];
- var cart= JSON.parse(localStorage.getItem("cartdb"))||[];
+ var products=JSON.parse(localStorage.getItem("prod"))||[];
+ 
 
  display(products)
  function pricesort(){
@@ -43,8 +43,6 @@ if(selected=="shopall"){
 function display(products){
  document.querySelector("#main").innerHTML="";
 products.map(function(elem){
-  // console.log(document.querySelector(".t"));
-    // console.log(elem.reviews)
     var div=document.createElement("div");
     var img=document.createElement("img");
     img.setAttribute("src",elem.image);
@@ -55,21 +53,16 @@ products.map(function(elem){
     h4.textContent=elem.category;
    var rating=document.createElement("div");
    rating.setAttribute("id","rev");
-  //  var r=document.querySelector("p")
-  //  var r=document.querySelector(".s");
-  //  var a=document.querySelector(".a");
-  //  var t=document.querySelector(".t");
-  //  var i=document.querySelector(".r");
-  //  var hr=document.querySelector(".h");
   var rate=document.createElement("img");
   rate.setAttribute("src","https://static.thenounproject.com/png/1149720-200.png")
   rate.style="width:30%;height:70px";
     var p=document.createElement("h4");
-      p.textContent=elem.reviews;
+      p.textContent=elem.reveiews;
        rating.append(rate,p);
     var cartmain=document.createElement("div");
     cartmain.addEventListener("click",function(){
       addtocart(elem)
+      window.location.href="cart.html";
     })
     pricediv=document.createElement("div");
     dollar=document.createElement("h3");
@@ -79,9 +72,6 @@ products.map(function(elem){
     pricediv.append(dollar,price);
     cartdiv=document.createElement("div");
     var but=document.createElement("button");
-    but.addEventListener("click",function(){
-      addtocart(elem)
-    });
     but.textContent="ADD TO CART";
   var  icon=document.createElement("img");
   icon.setAttribute("src","https://img.icons8.com/ios/452/shopping-bag--v1.png")
@@ -96,8 +86,11 @@ products.map(function(elem){
 }
 
 function addtocart(elem){
+    var cart= JSON.parse(localStorage.getItem("cartItemDb"))||[];
 cart.push(elem)
-//  console.log(elem);
-//  console.log(cart);
-localStorage.setItem("cartdb",JSON.stringify(cart));
+localStorage.setItem("cartItemDb",JSON.stringify(cart));
 }
+
+document.querySelector("#loginicon").addEventListener("click",function(){
+  window.location.href="Login.html"
+})
