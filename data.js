@@ -578,6 +578,6 @@ var object={
     type:elem.type
 }
 prods.push(object)
-localStorage.setItem("prod",JSON.stringify(prods));
+localStorage.setItem("Prod",JSON.stringify(prods));
 })
 

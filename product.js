@@ -1,5 +1,5 @@
 
- var products=JSON.parse(localStorage.getItem("prod"))||[];
+ var products=JSON.parse(localStorage.getItem("Prod"))||[];
  
 
  display(products)
