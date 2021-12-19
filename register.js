@@ -17,3 +17,6 @@ function CONTINUE(event) {
   localStorage.setItem("userDatabase", JSON.stringify(userData));
   
 }
+ document.querySelector("#submitId").addEventListener("click", function () {
+        window.location.href = "Login.html"
+    })
