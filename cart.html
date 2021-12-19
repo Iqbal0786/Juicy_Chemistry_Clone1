@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- linking the cdn link for cart icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- linking the cart.css file   -->
+    <link rel="stylesheet" href="cart.css">
+    <title>cart</title>
+</head>
+<body>
+    <!-- parent div for the cart content -->
+    <div id="cartDiv">
+        <!-- top div for cart icon and count icon -->
+        <div id="topBar">
+            <i class="fa fa-long-arrow-left" id="leftAero"></i>
+            <h2>CART</h2>
+            <div id="cartIcon"><i class="fa fa-shopping-cart" style="font-size:36px"></i>
+                <h3>0</h3>
+            </div>
+        </div>
+         <!-- cart content box -->
+        <div id="cartContentBox">
+          
+        </div>
+        <!-- Cart detail box like subtotal -->
+        <div id="cartDetailBox">
+            <div id="subTotalDiv">
+                <p id="subTotal">Subtotal</p>
+                <h3 id="totalPay">$2200</h3>
+            </div>
+            <button id="paymentButton">PROCEED TO PAYMENT</button>
+              <!-- different icons of payments comp -->
+            <div id="paymentImg">
+                <img src="https://cdn.shopify.com/s/files/1/0058/7779/2832/files/visa.png?v=1625657861" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0058/7779/2832/files/master.png?v=1625657873" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0058/7779/2832/files/paytm.jpg?v=1625657885" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0058/7779/2832/files/upi.jpg?v=1625657899" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0058/7779/2832/files/cash.png?v=1625657946" alt="">
+                <img src="https://cdn.shopify.com/s/files/1/0058/7779/2832/files/rupay.png?v=1625657957" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="cart.js">
+       // linking the cart.js file 
+</script>
