@@ -18,5 +18,5 @@ function CONTINUE(event) {
   
 }
  document.querySelector("#submitId").addEventListener("click", function () {
-        window.location.href = "Login.html"
+        window.location.href = "home.html"
     })
