@@ -1,0 +1,195 @@
+  /* css for  parent div */
+#cartDiv{
+    max-width: 40%;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin:auto;
+    margin-top: 20px;
+    background-color: #fffdf4;
+
+}
+ /* css for  topBar div */
+#cartDiv #topBar{
+    width: 98%;
+    height: 70px;
+    /* border: 1px solid blue; */
+    padding-left: 10px;
+    color: #204e3c;
+    border-bottom: 1px solid gray;
+    display: flex;
+     
+}
+ /* css for  left aero */
+#topBar > #leftAero{
+    margin-top: 22px;
+    margin-right: 15px;
+    font-size: 27px;
+    cursor: pointer;
+     
+}
+ /* css for  text */
+#topBar > h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+    
+}
+ /* css for cart icon */
+#cartIcon{
+    width: 200px;
+    display: flex;
+    margin-left:35%;
+    /* border: 1px solid rgb(66, 61, 61); */
+    padding-top: 15px;
+}
+#cartIcon > h3{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+ /* css for  contentbox  div */
+#cartContentBox{
+    width: 92%;
+    height: 400px;
+    /* border:1px solid green; */
+    overflow: auto;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+ /* css for  item box div */
+#cartContentBox .itemBox{
+    display: flex;
+    width: 100%;
+     height: 155px;
+    /* border: 1px solid orangered; */
+   
+    margin-bottom: 40px;
+}
+ /* css for  img inside intembox */
+.itemBox > img{
+    width: 30%;
+    height: 100%;
+}
+ /* css for  textBox */
+.itemBox > .textBox{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid purple; */
+    padding-left: 20px;
+}
+.textBox > .title{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: normal;
+    /* padding-right: 40px; */
+    line-height: 20px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 15px;
+    /* border: 1px solid red; */
+}
+ /* css for price div*/
+.textBox > .pricediv{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 30%;
+    height: 30px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    /* border: 1px solid yellowgreen; */
+    
+}
+
+.pricediv > .price{
+     margin-top: 5px;
+     color: #204e3c;
+}
+.pricediv > .quantity{
+    margin-top: 8px;
+    color: gray;
+}
+.textBox > .buttonDiv{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* margin-top: 25px; */
+    /* border: 1px solid rgb(240, 68, 6); */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   
+
+
+
+}
+ /* css for  border for textBox */
+.textBox >.buttonDiv :nth-child(1){
+    border-right: none;
+}
+.textBox >.buttonDiv :nth-child(3){
+    border-left: none;
+}
+ /* css for  button div */
+ .textBox >.buttonDiv > button{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    /* border: 1px solid #204e3c; */
+    color: #204e3c;
+    background-color: #fffdf4;
+    font-size: 20px;
+   
+}
+.buttonDiv > p{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    color: #204e3c;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: lighter;
+    cursor: pointer;
+    
+}
+ /* css for cartDetailBox */
+#cartDetailBox{
+    /* border:1px solid rgb(3, 51, 3); */
+    width: 97%;
+    height: 190px;
+    padding-left: 15px;
+}
+ /* css for  subtotal div*/
+#cartDetailBox > #subTotalDiv{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(255, 13, 134); */
+}
+#subTotal{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#totalPay{
+    padding-right: 40px;
+    color: #186937;
+}
+ /* css for payment button */
+#paymentButton{
+    padding: 20px 150px;
+    margin-top: 10px;
+    background-color: #0f2d26;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+}
+#paymentImg {
+    display: flex;
+    width: 100%;
+    padding-left: 90px;
+    padding-top: 15px;
+}
+#paymentImg > img{
+  width: 30px;
+  height: 20px;
+   margin-left: 5px;
+}
