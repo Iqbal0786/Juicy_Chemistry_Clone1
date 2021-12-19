@@ -79,6 +79,9 @@ svg {
   font-size: 18px;
   border: 1px solid transparent;
 }
+#styleheader > button {
+    color: black;
+}
 #main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
