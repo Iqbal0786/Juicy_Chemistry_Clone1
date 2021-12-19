@@ -8,13 +8,103 @@
     <link rel="stylesheet" href="product.css">
 </head>
 <body>
-    <div>
+   <!-- header start -->
+   <div id="entire">
+    <div id="header">
+      <div>
+        <img style="width:auto"
+          src="https://cdn.shopify.com/s/files/1/0058/7779/2832/files/JC_Logo_NewWeb_B_250x.png?v=1629195973"
+          alt=""
+        />
+     </div>
+      <div id="making">
+        <input type="text" placeholder="" id="search" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="currentColor"
+          class="bi bi-search"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+          />
+        </svg>
+        <svg id="loginicon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-person"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"
+          />
+        </svg>
+        <svg id="carticon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-bag"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+          />
+        </svg>
+      </div>
+    </div>
+    <hr />
+    <div id="styleheader">
+      <select name="" class="ShopAll"   onchange="filter()">
+        <option value="">SHOP ALL</option>
+        <option value="FACE CARE">FACE CARE</option>
+        <option value="BODY CARE">BODY CARE</option>
+        <option value="HAIR CARE">HAIR CARE</option>
+        <option value="AROMATHERAPY">AROMATHERAPY</option>
+        <option value="Junior Care">JUNIOR CARE</option>
+        <option value="Accessories">ACCESSORIES</option>
+      </select>
+      <select class="ShopAll">
+        <option value="">SHOP BY CONCERN</option>
+        <option value="Eye Care">EYE CARE</option>
+        <option value="Hair Fall + Growth">HAIR FALL + GROWTH</option>
+        <option value="Pigmentation">PIGMENTATION</option>
+        <option value="brightening">BRIGHTENING</option>
+      </select>
+      <button class="headerBtn">JUICY ACTIVES</button>
+      <button class="headerBtn">GIFTING</button>
+      <select name="" class="ShopAll">
+        <option value="">OUR STORY</option>
+        <option value="Our Story">OUR STORY</option>
+        <option value="Media">MEDIA</option>
+        <option value="Awards">AWARDS</option>
+      </select>
+      <select name="" class="ShopAll">
+        <option value="">TESTIMONIALS</option>
+        <option value="Testimonials">TESTIMONINAL</option>
+        <option value="Customer Stories">CUSTOMER STORIES</option>
+      </select>
+      <button class="headerBtn">BLOG</button>
+      <hr />
+    </div>
+  </div>
+  <!-- header end -->
+
+  <h1  id="facecare">Face Care</h1>
+  
+    <div id="filter">
+      
       <select name="" id="sort" onchange="pricesort()">
         <option value="sort by">Sort by</option>
       <option value="low">Low to High</option>
       <option value="high">High To Low</option>
       </select>
       <select name="" id="category" onchange="filter()">
+        <option value="shopall">Filter</option>
         <option value="shopall">SHOP ALL</option>
         <option value="FACE CARE">FACE CARE</option>
         <option value="BODY CARE">BODY CARE</option>
@@ -23,6 +113,7 @@
         <option value="Junior Care">JUNIOR CARE</option>
         <option value="Accessories">ACCESSORIES</option>
     </select>
+    
     </div>
    
    <div id="main">
@@ -122,7 +213,59 @@
   </div> -->
 </div>
   </div> 
+<!-- footer start -->
+<div class="footer">
+  <div id="shop">
+    <h3>SHOP</h3>
+    <button class="footerBtn">Face Care</button><br>
+    <button class="footerBtn">Body Care</button><br>
+    <button class="footerBtn">Eye Care</button><br>
+    <button class="footerBtn">Aromatherapy</button><br>
+    <!-- <button class="footerBtn">Shop By Concern</button><br> -->
+    <button class="footerBtn">accessories</button><br>
+    <button class="footerBtn">Junior Care</button><br>
+  </div>
+  <div id="about">
+    <h3>ABOUT</h3>
+    <button class="footerBtn">Our Story</button><br>
+    <button class="footerBtn">Why Choose JC</button><br>
+    <button class="footerBtn">CertificationS</button><br>
+    <button class="footerBtn">Custormer Stories</button><br>
+    <button class="footerBtn">Media</button><br>
+    <button class="footerBtn">Awards</button><br>
+    <button class="footerBtn">JC Cares</button><br>
+    <button class="footerBtn">Media Desclimers</button><br>
+  </div>
+  <div>
+    <h3 id="quick">QUICK LINKS</h3>
+    <button class="footerBtn">Track Order...</button><br>
+    <button class="footerBtn">Shopping Policy</button><br>
+    <button class="footerBtn">Refund & Certifications</button><br>
+    <button class="footerBtn">Terms And Conditions</button><br>
+    <button class="footerBtn">Privacy Policy</button><br>
+    <button class="footerBtn">Re-Cycle & Reward</button><br>
+    <button class="footerBtn">Refer A Friend</button><br>
+  </div>
+  <div id="stay">
+    <p>Stay Updated</p>
+    <h2>Get updates, Offers & the latest</h2>
+    <input  class="ininput" type="text" placeholder="Enter your Email Adddress " />
+    <button id="footerBtn2" >SUBSCRIBE</button>
+  </div>
+  <div id="get">
+    <h3>GET IN TOUCH</h3>
 
+    <h4>sales@juicychemistry.com</h4>
+    <h4>
+      No 106, Ramalingam Road (West),Next to Ramalingam Sowdeswari Hall, R.S
+      Puram,Coimbatore - 641002,india
+    </h4>
+    <h4>
+      Monday - Saturday, 10.00 AM to 8.00 PM CIN No : U24304TZ2019PTC032309
+    </h4>
+  </div>
+</div>
+<!-- footer end -->
 </body>
 </html>
 
