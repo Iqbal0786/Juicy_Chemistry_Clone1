@@ -9,7 +9,7 @@ document.querySelector("#button").addEventListener("click", CONTINUE);
     } else {
       for (var i = 0; i < regdUsers.length; i++) {
         if (regdUsers[i].emailAdd == email && regdUsers[i].pass == password) {
-          console.log("registered user");
+          alert("Login Successfull!");
           window.location.href = "product.html";
         }
       }
