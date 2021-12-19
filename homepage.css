@@ -7,6 +7,12 @@
   border: 1px solid transparent;
   font-family: sans-serif;
 }
+#loginicon{
+  cursor: pointer;
+}
+#carticon{
+  cursor: pointer;
+}
 #header {
   background-color: floralwhite;
   display: flex;

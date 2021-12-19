@@ -16,4 +16,13 @@ var slideIndex = 0;
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
         setTimeout(showSlides, 8000); // Change image every 2 seconds
-    }
+}
+document.querySelector("#loginicon").addEventListener("click", function () {
+        window.location.href = "Login.html"
+})
+    document.querySelector("#carticon").addEventListener("click", function () {
+        window.location.href = "cart.html"
+    })
+    document.querySelector("#select-nav").addEventListener("click", function () {
+        window.location.href = "product.html"
+    })
