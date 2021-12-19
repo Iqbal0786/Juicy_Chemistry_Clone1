@@ -15,7 +15,7 @@ var slideIndex = 0;
         }
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 8000); // Change image every 2 seconds
+        setTimeout(showSlides, 1200); // Change image every 2 seconds
 }
 document.querySelector("#loginicon").addEventListener("click", function () {
         window.location.href = "Login.html"
