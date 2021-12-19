@@ -118,46 +118,29 @@ svg {
 }
 
 #bg1 {
-    /* height: 300px; */
-    /* width: 100%; */
-    /* display: flex; */
-    /* align-items: flex-end; */
-    background-color: antiquewhite;
-    text-align: center;
+  background-color: antiquewhite;
+  text-align: center;
 }
 #bg2 {
   background-color: #fdcebe;
-  /* height: 300px;
-    width: 350px;
-    display: flex; */
-    /* align-items: flex-end; */
-    text-align: center;
+  text-align: center;
 }
 #bg3 {
   background-color: firebrick;
   color: white;
-  /* height: 300px;
-    width: 350px; */
-    /* display: flex;
-    align-items: flex-end; */
-    margin-bottom: 100px;
-    text-align: center;
+  margin-bottom: 100px;
+  text-align: center;
   line-height: 30px;
 }
 #bg4 {
   background-color: #d1decf;
-  /* height: 300px;
-    width: 350px; */
-    /* display: flex; */
-    /* align-items: flex-end; */
-    text-align: center;
+  text-align: center;
 }
 #textDiv {
   color: white;
   margin-top: 0px;
-  padding:40px 30px;
+  padding: 40px 30px;
   border: solid black;
-  
 }
 #child3title,
 #child3desc {
@@ -168,40 +151,27 @@ svg {
 }
 #bottomImg2 {
   padding-right: 10px;
- 
 }
-#div4{
-    margin-top: 70px;
+#div4 {
+  margin-top: 70px;
 }
 
 #parentDiv1 > div .textDiv {
-  
   margin-top: 15px;
 }
 .title {
   text-align: center;
   color: #204e3c;
   font-size: 35px;
-  
 }
 .desc {
-  padding: 10px 80px ;
+  padding: 10px 80px;
   line-height: 40px;
   color: #204e3c;
   font-family: sans-serif;
   font-size: 20px;
 }
-/* #parentDiv1 > div .imgDiv {
-  border: 1px solid tomato;
-  width: 100%;
-  height: 230px;
-} */
-/* #parentDiv1 > div .imgDiv > .bottomImg {
-  padding-left: 50px;
-  width: 80%;
-  height: 100%;
-} */
- .title > hr {
+.title > hr {
   width: 60%;
   margin-left: 50px;
 }
@@ -229,28 +199,27 @@ svg {
 /* third div start css */
 
 #parentDiv2 {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   width: 100%;
   height: 810px;
   /* border: 1px solid green; */
   display: flex;
-  
 }
 #parentDiv2 > div {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   width: 50%;
   height: 100%;
   /* border: 1px solid transparent; */
 }
 #imgAndTextDiv {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   display: flex;
   width: 100%;
   height: 180px;
   /* border: 1px solid red; */
 }
 #titleh3 {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   padding-top: 70px;
   padding-left: 40px;
   font-family: sans-serif;
@@ -258,7 +227,7 @@ svg {
   font-size: 25px;
 }
 #p2content {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   width: 80%;
   height: 60%;
   /* border: 1px solid blueviolet; */
@@ -267,23 +236,22 @@ svg {
   text-align: center;
 }
 #p2title {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   color: #204e3c;
   font-family: sans-serif;
   font-weight: normal;
   font-size: 60px;
 }
 #p2Desc {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   padding: 15px 30px;
   line-height: 35px;
   font-family: sans-serif;
   font-weight: 530;
   font-size: 22px;
-  
 }
 #p2Button {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   padding: 15px 60px;
   border: 1px solid black;
   color: black;
@@ -293,12 +261,12 @@ svg {
   margin-top: 20px;
 }
 #p2c2imgDiv {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   /* border: 1px solid black; */
   width: 30%;
 }
 #p2c2content {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   text-align: center;
   width: 80%;
   height: 500px;
@@ -307,7 +275,7 @@ svg {
   /* border: 1px solid hotpink; */
 }
 #p2c2contentDesc {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   padding: 20px 20px;
   font-family: sans-serif;
   line-height: 65px;
@@ -318,7 +286,7 @@ svg {
   margin-left: 80px;
 }
 #hashtagH2 {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   margin-top: 40px;
   margin-bottom: -20px;
   color: white;
@@ -327,7 +295,7 @@ svg {
   font-size: 35px;
 }
 #p2c2contentButton {
-/* border:1px solid green; */
+  /* border:1px solid green; */
   padding: 15px 90px;
   border: 1px solid white;
   color: white;
