@@ -123,20 +123,17 @@ svg {
 }
 #bg2 {
   background-color: #fdcebe;
-
   text-align: center;
 }
 #bg3 {
   background-color: firebrick;
   color: white;
-
   margin-bottom: 100px;
   text-align: center;
   line-height: 30px;
 }
 #bg4 {
   background-color: #d1decf;
-
   text-align: center;
 }
 #textDiv {
@@ -174,7 +171,6 @@ svg {
   font-family: sans-serif;
   font-size: 20px;
 }
-
 .title > hr {
   width: 60%;
   margin-left: 50px;
