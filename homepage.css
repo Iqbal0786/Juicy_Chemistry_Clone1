@@ -1,4 +1,10 @@
 /* header start */
+#searchOption{
+  /* width:300px;
+  height:50px; */
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
 #entire {
   background-color: floralwhite;
   /* position: fixed; */
@@ -68,6 +74,7 @@ svg {
   font-size: 18px;
   border: 1px solid transparent;
   width: 40%;
+  align-items: center;
 }
 #logoo {
   line-height: 1px;
