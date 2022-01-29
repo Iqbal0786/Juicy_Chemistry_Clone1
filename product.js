@@ -1,6 +1,43 @@
 
- var products=JSON.parse(localStorage.getItem("Prod"))||[];
- 
+//  var products=JSON.parse(localStorage.getItem("Prod"))||[];
+ let products=[
+  {
+      "image": "https://cdn.shopify.com/s/files/1/0058/7779/2832/products/Toners_110mlrose_400x.jpg?v=1636800917",
+      "name": "Bulgarian Damask Rose Hydrosol",
+      "category": "For Brighter Skin",
+      "reviews": "1430 reviews",
+      "price": "450",
+      "type": "FACE CARE",
+      "back": ""
+  },
+  {
+      "image": "https://cdn.shopify.com/s/files/1/0058/7779/2832/products/Toners_110mlrose_400x.jpg?v=1636800917",
+      "name": "Bulgarian Damask Rose Hydrosol",
+      "category": "For Brighter Skin",
+      "reviews": "1430 reviews",
+      "price": "450",
+      "type": "FACE CARE",
+      "back": ""
+  },
+  {
+      "image": "https://cdn.shopify.com/s/files/1/0058/7779/2832/products/Toners_110mlrose_400x.jpg?v=1636800917",
+      "name": "Bulgarian Damask Rose Hydrosol",
+      "category": "For Brighter Skin",
+      "reviews": "1430 reviews",
+      "price": "450",
+      "type": "FACE CARE",
+      "back": ""
+  },
+  {
+      "image": "https://cdn.shopify.com/s/files/1/0058/7779/2832/products/Toners_110mlrose_400x.jpg?v=1636800917",
+      "name": "Bulgarian Damask Rose Hydrosol",
+      "category": "For Brighter Skin",
+      "reviews": "1430 reviews",
+      "price": "450",
+      "type": "FACE CARE",
+      "back": ""
+  }
+]
 
  display(products)
  function pricesort(){
