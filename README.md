@@ -27,12 +27,6 @@ A web application for skin remedial products.
  - Vs Code
  - Git
 
-
-## Tools
-
- - Vs Code
- - Git
-
 ## Functionalities
 - User can sort the products by category and price (low to high).
 - User can add item from product page to the cart.
