@@ -2,7 +2,7 @@
 # Juicy Chemsitry Clone
 
 A brief description of what this project does and who it's for
-## Run Project : 
+## Run Project : http://juicy-chemistry-clone1.vercel.app/
 
 
 ## Team Members
