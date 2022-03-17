@@ -1,7 +1,8 @@
 
 # Juicy Chemsitry Clone
 
-A brief description of what this project does and who it's for
+A web application for skin remedial products.
+
 ## Run Project : http://juicy-chemistry-clone1.vercel.app/
 
 
